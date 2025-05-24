@@ -36,36 +36,6 @@ const Home = () => {
 
 
   )
-
-  
-  return (
-    <section>
-      <h3 className="font-bold mt-3">Imagenes</h3>
-      <div className="snap-x overflow-x-auto flex mt-5">
-        <div className="snap-start scroll-ml-2">
-          <img
-            src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80"
-            className="w-32 h-32 object-cover"
-            alt="Imagen 1"
-          />
-        </div>
-        <div className="snap-start scroll-ml-4">
-          <img
-            src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-32 h-32 object-cover"
-            alt="Imagen 2"
-          />
-        </div>
-        <div className="snap-start scroll-ml-6">
-          <img
-            src="https://images.unsplash.com/photo-1571757392712-7c1052de7ce5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-32 h-32 object-cover"
-            alt="Imagen 3"
-          />
-        </div>
-      </div>
-    </section>
-  );
 }
 
 export default Home
